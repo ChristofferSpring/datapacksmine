@@ -31,12 +31,12 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "*:pulo_mode",
+        "resource": "*:forçainterior_mode",
         "comparison": ">=",
         "compare_to": 50
     },
 
-    "name": "dash",
-    "description": "deshe na agua"
+    "name": "Dash",
+    "description": "Ao se utilizando parte de sua força interor é possivel dar um dash na direção em que esta olhando."
 
 }

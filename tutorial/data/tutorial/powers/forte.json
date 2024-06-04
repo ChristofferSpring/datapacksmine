@@ -38,18 +38,24 @@
         "modifier": {
             "attribute": "minecraft:generic.movement_speed",
             "operation": "multiply_base",
-            "value": 0.7
+            "value": 0.6
 
         }
     },
     "vida":{
         "type": "origins:attribute",
-        "modifier": {
+        "modifier": [{
             "name": "Max health increase",
             "attribute": "minecraft:generic.max_health",
             "value": 0.8,
             "operation": "multiply_base"
-        }
+        },
+        {
+           "name": "Max health increase",
+            "attribute": "minecraft:generic.max_health",
+            "value": 5,
+            "operation": "additional"
+        }]
     },
     "duro_na_queda":{
         "type": "origins:modify_damage_taken",
