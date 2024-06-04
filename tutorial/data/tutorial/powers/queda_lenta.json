@@ -1,0 +1,34 @@
+{
+    "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:and",
+            "actions":[
+                {
+                    "type":"origins:modify_falling",
+                    "velocity": 0.3,
+                    "take_fall_damage": true
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:pulo_mode",
+                    "change": -2,
+                    "operation": "add"
+                }
+                
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key":{
+            "key": "key.sneak",
+            "continuous":false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:pulo_mode",
+            "comparison": ">=",
+            "compare_to": 1
+        }
+}

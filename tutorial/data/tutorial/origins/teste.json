@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "origins:vegetarian",
+        "origins:phantomize",
+        "tutorial:water_legs",
+        "tutorial:shilded",
+        "tutorial:dash",
+        "tutorial:forte"
+    ],
+    "icon": "minecraft:kelp",
+    "order": 11,
+    "impact": 3,
+    "name": "teste",
+    "description": "¹"
+}

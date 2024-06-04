@@ -1,0 +1,15 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier":{
+        "attribute": "irons_spellbooks:max_mana",
+        "operation": "addition",
+        "value": 30
+    },
+    "tick_rate":30,
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "Shielded",
+    "description": "A sturdy shell gives you additional armor shen crouching."
+
+}

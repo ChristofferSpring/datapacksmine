@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Max health increase",
+        "attribute": "irons_spellbooks:fire_spell_power",
+        "value": 0.1,
+        "operation": "multiply_total"
+    },
+    "name": "FOGO",
+    "description": "fogo"
+}

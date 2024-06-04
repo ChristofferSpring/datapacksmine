@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "tutorial:pelado",
+        "tutorial:forte",
+        "tutorial:pulo",
+        "tutorial:dash",
+        "tutorial:pular",
+        "tutorial:atributomacaco",
+        "origins:claustrophobia"
+    ],
+    "icon": "minecraft:glow_berries",
+    "order": 2,
+    "impact": 3,
+    "name": "Macaco",
+    "description": "O macaco vive em bando e eles gostam de ficar mostrando suas bundas coloridas, quando intimidados ele custam ficar de bunda para o inimigo."
+}

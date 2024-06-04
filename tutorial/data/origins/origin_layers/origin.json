@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "origins": [
+        "tutorial:teste",
+        "tutorial:macaco"
+    ]
+}
