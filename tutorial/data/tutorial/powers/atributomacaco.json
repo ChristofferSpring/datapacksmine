@@ -1,88 +1,117 @@
 {
     "type": "origins:multiple",
 	"hidden": true,
-    "attributos_mana_geral":{
+    "MagiaResist":{
         "type": "origins:attribute",
-        "modifier": [{
-            "name": "Max health increase",
-            "attribute": "irons_spellbooks:max_mana",
-            "value": 0.5,
-            "operation": "multiply_base"
-        },
-        {
-            "attribute": "irons_spellbooks:spell_resist",
-            "value": 0.2,
-            "operation": "multiply_base"
-        },
-        {
-            "attribute": "irons_spellbooks:cooldown_reduction",
-            "value": 0.35,
-            "operation": "multiply_base"
-        },
-        {
-            "attribute": "irons_spellbooks:spell_power",
-            "value": 0.2,
-            "operation": "multiply_base"
-        },
-        {
-            "attribute": "irons_spellbooks:mana_regen",
-            "value": 0.25,
-            "operation": "multiply_base"
-        },
-        {
-            "attribute": "irons_spellbooks:cast_time_reduction",
-            "value": 0.15,
-            "operation": "multiply_base"
-        }]
+        "modifier":{
+                "attribute": "irons_spellbooks:spell_resist",
+                "value": 0.25,
+                "operation": "multiply_base"
+            }
     },
-    "poderes_unicos":{
+    "VidaMaxima":{
         "type": "origins:attribute",
-        "modifier":[{
-                "attribute": "irons_spellbooks:blood_spell_power",
-                "value": 0.25,
+        "modifier":{
+                "name": "Max health increase",
+                "attribute": "irons_spellbooks:max_mana",
+                "value": 0.5,
                 "operation": "multiply_base"
-            },
-            {
-                "attribute": "irons_spellbooks:evocation_spell_power",
-                "value": 0.25,
-                "operation": "multiply_base"
-            },
-            {
-                "attribute": "irons_spellbooks:holly_spell_power",
-                "value": 0.25,
-                "operation": "multiply_base"
-            },
-            {
-                "attribute": "irons_spellbooks:nature_spell_power",
+            }
+    },
+    "MagiaCooldown":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:cooldown_reduction",
                 "value": 0.35,
                 "operation": "multiply_base"
             }
-        ]
-        
     },
-    "poderes_genericos":{
+    "Magiapower":{
         "type": "origins:attribute",
-        "modifier":[{
+        "modifier":{
+                "attribute": "irons_spellbooks:spell_power",
+                "value": 0.25,
+                "operation": "multiply_base"
+            }
+    },
+    "ManaRegen":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:mana_regen",
+                "value": 0.45,
+                "operation": "multiply_base"
+            }
+    },
+    "ManaCastTime":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:cast_time_reduction",
+                "value": 0.25,
+                "operation": "multiply_base"
+            }
+    },
+    "BloodPower":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:blood_spell_power",
+                "value": 0.35,
+                "operation": "multiply_base"
+            }
+    },
+    "EvocationPower":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:evocation_spell_power",
+                "value": 0.35,
+                "operation": "multiply_base"
+            }
+    },
+    "HollyPower":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:holly_spell_power",
+                "value": 0.35,
+                "operation": "multiply_base"
+            }
+    },
+    "NaturePower":{
+        "type": "origins:attribute",
+        "modifier":{
+                "attribute": "irons_spellbooks:nature_spell_power",
+                "value": 0.45,
+                "operation": "multiply_base"
+            }
+    },
+    "EnderPower":{
+        "type": "origins:attribute",
+        "modifier":{
                 "attribute": "irons_spellbooks:ender_spell_power",
                 "value": 0.12,
                 "operation": "multiply_base"
-            },
-            {
+            }
+    },
+    "FirePower":{
+        "type": "origins:attribute",
+        "modifier":{
                 "attribute": "irons_spellbooks:fire_spell_power",
                 "value": 0.12,
                 "operation": "multiply_base"
-            },
-            {
+            }
+    },
+    "IcePower":{
+        "type": "origins:attribute",
+        "modifier":{
                 "attribute": "irons_spellbooks:ice_spell_power",
                 "value": 0.12,
                 "operation": "multiply_base"
-            },
-            {
+            }
+    },
+    "lightningPower":{
+        "type": "origins:attribute",
+        "modifier":{
                 "attribute": "irons_spellbooks:lightning_spell_power",
                 "value": 0.12,
                 "operation": "multiply_base"
             }
-        ]
-        
     }
 }
