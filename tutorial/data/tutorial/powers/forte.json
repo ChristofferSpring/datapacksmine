@@ -44,18 +44,19 @@
     },
     "vida":{
         "type": "origins:attribute",
-        "modifier": [{
-            "name": "Max health increase",
+        "modifier": {
             "attribute": "minecraft:generic.max_health",
-            "value": 0.8,
+            "value": 0.5,
             "operation": "multiply_base"
-        },
-        {
-           "name": "Max health increase",
+        }
+    },
+    "vidainicial":{
+        "type": "origins:attribute",
+        "modifier": {
             "attribute": "minecraft:generic.max_health",
-            "value": 5,
-            "operation": "additional"
-        }]
+            "value": 6,
+            "operation": "addition"
+        }
     },
     "duro_na_queda":{
         "type": "origins:modify_damage_taken",
@@ -78,6 +79,8 @@
           ]
         }
     }
+
+    
 }
 
 

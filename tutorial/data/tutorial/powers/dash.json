@@ -10,8 +10,8 @@
             },
             {
                 "type": "origins:change_resource",
-                "resource": "*:pulo_mode",
-                "change": -50,
+                "resource": "*:forcainterior_mode",
+                "change": -150,
                 "operation": "add"
             },
             {
@@ -31,7 +31,7 @@
     },
     "condition": {
         "type": "origins:resource",
-        "resource": "*:forçainterior_mode",
+        "resource": "*:forcainterior_mode",
         "comparison": ">=",
         "compare_to": 50
     },

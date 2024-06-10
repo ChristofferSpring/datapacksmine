@@ -5,19 +5,13 @@
         "actions":[
             {
                 "type":"origins:add_velocity",
-                "y":0.8,
-                "space": "local"
+                "y":0.8
             },
             {
                 "type": "origins:change_resource",
-                "resource": "*:forçainterior_mode",
-                "change": -30,
+                "resource": "*:forcainterior_mode",
+                "change": -150,
                 "operation": "add"
-            },
-            {
-                "type":"origins:add_velocity",
-                "z":-0.1,
-                "space": "local"
             }
         ]
     },
@@ -30,21 +24,13 @@
         "continuous":false
     },
     "condition": {
-        "type": "origins:and",
-            "actions":[
-                {
-                    "type": "origins:resource",
-                    "resource": "*:forçainterior_mode",
-                    "comparison": ">=",
-                    "compare_to": 50
-                },
-                {
-                    "type": "origins:submerged_in",
-                    "fluid": "minecraft:water",
-                    "inverted": true
-                }
-            ]
+            "type": "origins:resource",
+            "resource": "*:forcainterior_mode",
+            "comparison": ">=",
+            "compare_to": 50
     },
+
     "name": "Pulo",
     "description": "Ao gastar um pouco de sua força interior é possivel saltar um pouco mais alto que o comum."
+
 }

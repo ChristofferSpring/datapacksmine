@@ -1,0 +1,132 @@
+{
+    "type": "origins:multiple",
+    "mode":{
+        "type": "origins:resource",
+        "min": 0,
+        "max": 400,
+        "hud_render": {
+            "order": -1110,
+            "should_render": true,
+            "bar_index": 4,
+            "icon_index": 3
+        }
+    },
+    "active": {
+        "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:if_else",
+            "condition":{
+                "type": "origins:resource",
+                "resource": "*:*_mode",
+                "comparison": ">=",
+                "compare_to": 40
+            },
+            "if_action":{
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 3,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            }
+        },
+        "cooldown": 0.1,
+        "key":{
+            "key": "key.forward",
+            "continuous": true
+        }
+    },
+    "active2": {
+        "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:if_else",
+            "condition":{
+                "type": "origins:resource",
+                "resource": "*:*_mode",
+                "comparison": ">=",
+                "compare_to": 40
+            },
+            "if_action":{
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            }
+        },
+        "cooldown": 1,
+        "key":{
+            "key": "key.left",
+            "continuous": true
+        }
+    },
+    "active3": {
+        "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:if_else",
+            "condition":{
+                "type": "origins:resource",
+                "resource": "*:*_mode",
+                "comparison": ">=",
+                "compare_to": 40
+            },
+            "if_action":{
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            }
+        },
+        "cooldown": 1,
+        "key":{
+            "key": "key.back",
+            "continuous": true
+        }
+    },
+    "active4": {
+        "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:if_else",
+            "condition":{
+                "type": "origins:resource",
+                "resource": "*:*_mode",
+                "comparison": ">=",
+                "compare_to": 40
+            },
+            "if_action":{
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:*_mode",
+                "change": 1,
+                "operation": "add"
+            }
+        },
+        "cooldown": 0.1,
+        "key":{
+            "key": "key.right",
+            "continuous": true
+        }
+    },
+    "name": "Poder",
+    "description": "Ao se movimentar a força interior se acumula"
+}

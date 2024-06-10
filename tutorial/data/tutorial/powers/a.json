@@ -1,0 +1,34 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "active": {
+        "type": "origins:active_self",
+        "entity_action":{
+            "type": "origins:if_else",
+            "condition":{
+                "type": "origins:resource",
+                "resource": "*:forcainterior_mode",
+                "comparison": ">=",
+                "compare_to": 40
+            },
+            "if_action":{
+                "type": "origins:change_resource",
+                "resource": "*:forcainterior_mode",
+                "change": 3,
+                "operation": "add"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "*:forcainterior_mode",
+                "change": 1,
+                "operation": "add"
+            }
+        },
+        "cooldown": 0.1,
+        "key":{
+            "key": "key.c",
+            "continuous": true
+        }
+    }
+
+}
