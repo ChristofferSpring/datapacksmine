@@ -29,7 +29,16 @@
         "modifier": {
             "attribute": "minecraft:generic.armor",
             "operation": "multiply_base",
-            "value": 0.7
+            "value": 0.5
+
+        }
+    },
+    "armorp": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.armor_toughness",
+            "operation": "addition",
+            "value": 15
 
         }
     },
