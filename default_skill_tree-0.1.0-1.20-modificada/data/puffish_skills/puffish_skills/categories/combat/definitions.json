@@ -270,7 +270,7 @@
 			}
 		]
 	},
-	"jump+5%": {
+	"armor+1": {
 		"title": "+5% protect",
 		"icon": {
 			"type": "effect",
@@ -284,6 +284,25 @@
 				"data": {
 					"attribute": "generic.armor",
 					"value": 2,
+					"operation": "addition"
+				}
+			}
+		]
+	},
+	"mana+50": {
+		"title": "+50 Mana",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:max_mana",
+					"value": 50,
 					"operation": "addition"
 				}
 			}
