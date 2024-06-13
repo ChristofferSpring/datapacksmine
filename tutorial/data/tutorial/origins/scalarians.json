@@ -1,0 +1,15 @@
+{
+    "powers": [
+        "tutorial:water_legs",
+        "tutorial:water_dash",
+        "medievalorigins:siren/amphibious",
+        "medievalorigins:siren/water_vision",
+        "origins:aquatic",
+        "origins:like_water"
+    ],
+    "icon": "minecraft:kelp",
+    "order": 11,
+    "impact": 3,
+    "name": "Scalarians",
+    "description": "¹"
+}

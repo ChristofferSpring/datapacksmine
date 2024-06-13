@@ -1,0 +1,35 @@
+{
+    "name": "Water Dash",
+    "description": "dash na agua",
+
+    "type": "origins:active_self",
+    "entity_action":{
+        "type": "origins:and",
+        "actions":[
+            {
+                "type":"origins:add_velocity",
+                "y":0.35,
+                "space": "local"
+            },
+            {
+                "type":"origins:add_velocity",
+                "z":2.2,
+                "space": "local"
+            }
+        ]
+    },
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": true
+    },
+    "key": {
+        "key": "key.origins.primary_active",
+        "continuous": false
+    },
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+    }
+}

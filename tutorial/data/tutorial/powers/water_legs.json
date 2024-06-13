@@ -5,16 +5,28 @@
     "duration_per_stack": 20,
     "effect": {
         "effect": "minecraft:slowness",
-        "duration": 60,
-        "amplifier":1,
+        "duration": 30,
+        "amplifier":0,
         "is_ambient": true,
         "show_particules":false,
         "shoe_icon": true
     },
+
     "condition": {
-        "type": "origins:submerged_in",
-        "fluid": "minecraft:water",
-        "inverted": true
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_rain",
+                "inverted": true
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0.0,
+                "inverted": true
+            }
+        ]
     },
     "name": "water tutorial",
     "description": "vc nao ser pronto pra andar fora da agua"
