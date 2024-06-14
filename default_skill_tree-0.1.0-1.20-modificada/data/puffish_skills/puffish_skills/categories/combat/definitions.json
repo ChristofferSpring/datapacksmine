@@ -402,6 +402,158 @@
 				}
 			}
 		]
+	},
+	"spellblood": {
+		"title": "spell power blood +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:blood_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellevocation": {
+		"title": "spell power evocation +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:evocation_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellholy": {
+		"title": "spell power holy +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:holy_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellnature": {
+		"title": "spell power nature +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:nature_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellender": {
+		"title": "spell power ender +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ender_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellfire": {
+		"title": "spell power fire +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:fire_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spellice": {
+		"title": "spell power ice +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:ice_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
+	},
+	"spelllightning": {
+		"title": "spell power lightning +2%",
+		"icon": {
+			"type": "effect",
+			"data": {
+				"effect": "jump_boost"
+			}
+		},
+		"rewards": [
+			{
+				"type": "puffish_skills:attribute",
+				"data": {
+					"attribute": "irons_spellbooks:lightning_spell_power",
+					"value": 0.02,
+					"operation": "multiply_base"
+				}
+			}
+		]
 	}
 	
 }
