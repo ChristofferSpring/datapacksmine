@@ -29,99 +29,274 @@
 	},
 	"sources": [
 		{
-			"type": "pufferfish_unofficial_additions:spell_casting",
+			"type": "puffish_skills:mine_block",
 			"data": {
 				"variables": {
-				"level": {
-					"operations": [
-					{
-						"type": "level"
-					}
-					]
-				},
-				"rarity": {
-					"operations": [
-					{
-						"type": "rarity_name"
+					"silk_touch": {
+						"operations": [
+							{
+								"type": "tool_item_stack"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"nbt": "{Enchantments:[{id:\"minecraft:silk_touch\"}]}"
+								}
+							}
+						]
 					},
-					{
-						"type": "puffish_skills:test",
-						"data": {
-						"value": "LEGENDARY"
-						}
+					"stone_like": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "#base_stone_overworld"
+								}
+							}
+						]
 					},
-					{
-						"type": "switch",
-						"data": {
-						"true": 5,
-						"false": 1
-						}
-					}
-					]
-				},
-				"mana_cost": {
-					"operations": [
-					{
-						"type": "mana_cost"
-					}
-					]
-				},
-				"mana_cost_per_second": {
-					"operations": [
-					{
-						"type": "mana_cost_per_second"
-					}
-					]
-				},
-				"spellbook": {
-					"operations": [
-					{
-						"type": "spellbook"
+					"deepslate": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate"
+								}
+							}
+						]
 					},
-					{
-						"type": "puffish_skills:test",
-						"data": {
-						"item": "irons_spellbooks:iron_spell_book"
-						}
-					}
-					]
-				},
-				"fire_school": {
-					"operations": [
-					{
-						"type": "school"
+					"coal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "coal_ore"
+								}
+							}
+						]
 					},
-					{
-						"type": "puffish_skills:test",
-						"data": {
-						"school": "irons_spellbooks:fire"
-						}
-					}
-					]
-				},
-				"blaze_storm": {
-					"operations": [
-					{
-						"type": "spell"
+					"copper_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "copper_ore"
+								}
+							}
+						]
 					},
-					{
-						"type": "puffish_skills:test",
-						"data": {
-						"spell": "irons_spellbooks:blaze_storm"
-						}
+					"iron_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "iron_ore"
+								}
+							}
+						]
+					},
+					"gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "gold_ore"
+								}
+							}
+						]
+					},
+					"redstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "redstone_ore"
+								}
+							}
+						]
+					},
+					"lapis_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "lapis_ore"
+								}
+							}
+						]
+					},
+					"diamond_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "diamond_ore"
+								}
+							}
+						]
+					},
+					"emerald_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "emerald_ore"
+								}
+							}
+						]
+					},
+					"deepslate_coal_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_coal_ore"
+								}
+							}
+						]
+					},
+					"deepslate_copper_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_copper_ore"
+								}
+							}
+						]
+					},
+					"deepslate_iron_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_iron_ore"
+								}
+							}
+						]
+					},
+					"deepslate_gold_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_gold_ore"
+								}
+							}
+						]
+					},
+					"deepslate_redstone_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_redstone_ore"
+								}
+							}
+						]
+					},
+					"deepslate_lapis_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_lapis_ore"
+								}
+							}
+						]
+					},
+					"deepslate_diamond_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_diamond_ore"
+								}
+							}
+						]
+					},
+					"deepslate_emerald_ore": {
+						"operations": [
+							{
+								"type": "mined_block_state"
+							},
+							{
+								"type": "puffish_skills:test",
+								"data": {
+									"block": "deepslate_emerald_ore"
+								}
+							}
+						]
 					}
-					]
-				}
 				},
 				"experience": [
-				{
-					"condition": "spellbook & !blaze_storm & fire_school",
-					"expression": "level + (mana_cost / 5) + rarity"
-				},
-				{
-					"condition": "blaze_storm",
-					"expression": "(level + (mana_cost_per_second / 10)) / 2"
-				}
+					{
+						"condition": "!silk_touch & stone_like",
+						"expression": "1"
+					},
+					{
+						"condition": "!silk_touch & deepslate",
+						"expression": "2"
+					},
+					{
+						"condition": "!silk_touch & (coal_ore | copper_ore | iron_ore | gold_ore | redstone_ore | lapis_ore | diamond_ore | emerald_ore)",
+						"expression": "10"
+					},
+					{
+						"condition": "!silk_touch & (deepslate_coal_ore | deepslate_copper_ore | deepslate_iron_ore | deepslate_gold_ore | deepslate_redstone_ore | deepslate_lapis_ore | deepslate_diamond_ore | deepslate_emerald_ore)",
+						"expression": "12"
+					}
 				]
 			}
 		}

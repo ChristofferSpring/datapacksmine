@@ -271,11 +271,11 @@
 		]
 	},
 	"armor+1": {
-		"title": "+5% protect",
+		"title": "+1 armadura",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "minecraft:iron_chestplate"
 			}
 		},
 		"rewards": [
@@ -292,9 +292,9 @@
 	"mana+50": {
 		"title": "+50 Mana",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:ruined_book"
 			}
 		},
 		"rewards": [
@@ -311,9 +311,9 @@
 	"spellresist": {
 		"title": "spell resist +3%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:archevoker_chestplate"
 			}
 		},
 		"rewards": [
@@ -330,9 +330,9 @@
 	"spellcooldown": {
 		"title": "spell cooldown +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:mana_ring"
 			}
 		},
 		"rewards": [
@@ -349,9 +349,9 @@
 	"manaregen": {
 		"title": "mana regen +5%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:amethyst_resonance_charm"
 			}
 		},
 		"rewards": [
@@ -368,9 +368,9 @@
 	"castime": {
 		"title": "spell cast time -3%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:cooldown_ring"
 			}
 		},
 		"rewards": [
@@ -387,9 +387,9 @@
 	"spellpowergeneral": {
 		"title": "spell power general +1%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:iron_spell_book"
 			}
 		},
 		"rewards": [
@@ -406,9 +406,9 @@
 	"spellblood": {
 		"title": "spell power blood +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:blood_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -425,9 +425,9 @@
 	"spellevocation": {
 		"title": "spell power evocation +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:evocation_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -444,9 +444,9 @@
 	"spellholy": {
 		"title": "spell power holy +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:holy_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -463,9 +463,9 @@
 	"spellnature": {
 		"title": "spell power nature +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:nature_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -482,9 +482,9 @@
 	"spellender": {
 		"title": "spell power ender +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:ender_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -501,9 +501,9 @@
 	"spellfire": {
 		"title": "spell power fire +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:fire_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -520,9 +520,9 @@
 	"spellice": {
 		"title": "spell power ice +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:ice_upgrade_orb"
 			}
 		},
 		"rewards": [
@@ -539,9 +539,9 @@
 	"spelllightning": {
 		"title": "spell power lightning +2%",
 		"icon": {
-			"type": "effect",
+			"type": "item",
 			"data": {
-				"effect": "jump_boost"
+				"item": "irons_spellbooks:lightning_upgrade_orb"
 			}
 		},
 		"rewards": [
