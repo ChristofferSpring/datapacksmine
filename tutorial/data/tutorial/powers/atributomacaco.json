@@ -14,7 +14,7 @@
         "modifier":{
                 "attribute": "irons_spellbooks:max_mana",
                 "value": 0.7,
-                "operation": "multiply_base"
+                "operation": "multiply_total"
             }
     },
     "magiacooldown":{
@@ -29,7 +29,7 @@
         "type": "origins:attribute",
         "modifier":{
                 "attribute": "irons_spellbooks:spell_power",
-                "value": 0.25,
+                "value": 0.03,
                 "operation": "multiply_base"
             }
     },
@@ -85,7 +85,7 @@
         "type": "origins:attribute",
         "modifier":{
                 "attribute": "irons_spellbooks:ender_spell_power",
-                "value": 0.12,
+                "value": 0.03,
                 "operation": "multiply_base"
             }
     },

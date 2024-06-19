@@ -34,7 +34,7 @@
                 "operation": "add"
             }
         },
-        "cooldown": 0.1,
+        "cooldown": 1,
         "key":{
             "key": "key.forward",
             "continuous": true
@@ -121,7 +121,7 @@
                 "operation": "add"
             }
         },
-        "cooldown": 0.1,
+        "cooldown": 1,
         "key":{
             "key": "key.right",
             "continuous": true

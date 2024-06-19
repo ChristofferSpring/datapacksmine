@@ -2,6 +2,7 @@
     "powers": [
         "tutorial:water_legs",
         "tutorial:water_dash",
+        "tutorial:inwater",
         "medievalorigins:siren/amphibious",
         "medievalorigins:siren/water_vision",
         "origins:aquatic",

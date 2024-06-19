@@ -10,7 +10,7 @@
             {
                 "type": "origins:change_resource",
                 "resource": "*:forcainterior_mode",
-                "change": -150,
+                "change": -250,
                 "operation": "add"
             }
         ]
@@ -27,7 +27,7 @@
             "type": "origins:resource",
             "resource": "*:forcainterior_mode",
             "comparison": ">=",
-            "compare_to": 50
+            "compare_to": 250
     },
 
     "name": "Pulo",

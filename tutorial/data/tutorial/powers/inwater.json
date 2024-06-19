@@ -1,0 +1,30 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "fogodamage":{
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "name": "Flammable",
+            "operation": "addition",
+            "value": 6.0
+        },
+        "damage_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:is_fire"
+        }
+    },
+    "regen":{
+        "type": "origins:modify_healing",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": 1.5
+        },
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0.0
+        }
+    }
+	
+}
