@@ -1,11 +1,11 @@
 {
     "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
+    "min_stacks": -5,
     "max_stacks": 1,
     "duration_per_stack": 20,
     "effect": {
         "effect": "minecraft:slowness",
-        "duration": 30,
+        "duration": 2,
         "amplifier":0,
         "is_ambient": true,
         "show_particules":false,
@@ -28,6 +28,6 @@
             }
         ]
     },
-    "name": "water tutorial",
-    "description": "vc nao ser pronto pra andar fora da agua"
+    "name": "Lizard",
+    "description": "Scalarians não se dão tao bem fora da água"
 }

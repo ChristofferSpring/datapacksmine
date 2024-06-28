@@ -1,7 +1,6 @@
 {
     "replace": false,
     "origins": [
-        "tutorial:teste",
         "tutorial:macaco",
         "tutorial:scalarians"
     ]
