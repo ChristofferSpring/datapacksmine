@@ -3,7 +3,7 @@
     "mode":{
         "type": "origins:resource",
         "min": 0,
-        "max": 400,
+        "max": 255,
         "hud_render": {
             "order": -1110,
             "should_render": true,
@@ -24,7 +24,7 @@
             "if_action":{
                 "type": "origins:change_resource",
                 "resource": "*:*_mode",
-                "change": 3,
+                "change": 1,
                 "operation": "add"
             },
             "else_action": {
